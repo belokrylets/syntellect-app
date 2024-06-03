@@ -1,0 +1,45 @@
+.Autocomplete {
+  position: relative;
+}
+
+.suggestionList {
+  padding: 5px 0;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 5px 20px 0 rgba(31, 50, 61, 0.19);
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.suggestionItem {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  padding: 5px;
+
+}
+
+.suggestionItem:hover {
+  background: #e8e8e8;
+}
+
+.flag {
+
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+
+.fullName {
+
+}

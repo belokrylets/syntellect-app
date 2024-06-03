@@ -1,0 +1,42 @@
+.Buttons {
+  cursor: pointer;
+  width: fit-content;
+  text-transform: uppercase;
+}
+
+.primary {
+  padding: 15px 28px;
+  border: 1px solid #212121;
+  background: #212121;
+  color: #FFFFFF;
+
+  &:hover {
+    border: 1px solid #000000;
+    background: #000000;
+  }
+  &:disabled {
+    background: rgb(195, 195, 203);
+    border: 1px solid rgb(195, 195, 203);
+    cursor: auto;
+  }
+}
+
+.border {
+  box-sizing: border-box;
+  padding: 15px 28px;
+  border: 1px solid #212121;
+  color: #212121;
+  background: #FFFFFF;
+
+  &:hover {
+    border: 1px solid #000000;
+    color: #000000;
+
+  }
+  &:disabled {
+    border: 1px solid rgb(195, 195, 203);
+    color: rgb(195, 195, 203);
+    cursor: auto;
+  }
+}
+
